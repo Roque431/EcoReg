@@ -43,7 +43,7 @@ export default function SolucionSection() {
           {HOW_IT_WORKS.map((step, i) => (
             <div key={i} style={{ textAlign: 'center' }}>
               <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '3.5rem', color: `${t.blue}30`, lineHeight: 1, marginBottom: '0.25rem' }}>{step.num}</div>
-              <div style={{ fontSize: '1.5rem', marginBottom: '0.75rem' }}>{step.icon}</div>
+              
               <h3 style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 700, fontSize: '1rem', color: t.textPri, marginBottom: '0.5rem' }}>{step.title}</h3>
               <p style={{ fontSize: '0.85rem', color: t.textSec, lineHeight: 1.65 }}>{step.desc}</p>
             </div>

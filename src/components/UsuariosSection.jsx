@@ -24,7 +24,7 @@ export default function UsuariosSection() {
               {/* Barra de color superior */}
               <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: 3, background: u.color }} />
 
-              <div style={{ fontSize: '2.25rem', marginBottom: '1rem' }}>{u.icon}</div>
+              
               <div style={{ fontFamily: "'Space Mono', monospace", fontSize: '0.65rem', color: u.color, letterSpacing: '0.12em', textTransform: 'uppercase', marginBottom: '0.4rem' }}>
                 {u.subtitle}
               </div>

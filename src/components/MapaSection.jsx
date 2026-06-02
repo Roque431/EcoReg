@@ -99,7 +99,7 @@ export default function MapaSection() {
             ))}
 
             <div style={{ position: 'absolute', bottom: 8, right: 10, fontSize: '0.6rem', color: t.textMuted, fontFamily: "'Space Mono', monospace", letterSpacing: '0.1em' }}>
-              ECOREG-AI POSTGIS • MÉRIDA, YUC
+              ECOREG-AI POSTGIS • Tuxtla Gutierrez,Chiapas
             </div>
           </div>
         </div>

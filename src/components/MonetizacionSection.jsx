@@ -66,7 +66,6 @@ export default function MonetizacionSection() {
             {B2B_STREAMS.map((item, i) => (
               <div key={i} className="card" style={{ padding: '1.5rem 1.25rem', position: 'relative', overflow: 'hidden' }}>
                 <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: 2, background: item.color, opacity: 0.7 }} />
-                <div style={{ fontSize: '1.5rem', marginBottom: '0.75rem' }}>{item.icon}</div>
                 <h4 style={{ fontWeight: 700, fontSize: '0.9rem', color: t.textPri, marginBottom: '0.5rem' }}>{item.title}</h4>
                 <p style={{ fontSize: '0.8rem', color: t.textSec, lineHeight: 1.65 }}>{item.desc}</p>
               </div>

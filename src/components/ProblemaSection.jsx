@@ -20,7 +20,7 @@ export default function ProblemaSection() {
               {PROBLEMA_ITEMS.map((item, i) => (
                 <div key={i} style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start' }}>
                   <div style={{ width: 36, height: 36, borderRadius: 6, background: `${t.orange}15`, border: `1px solid ${t.orange}33`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1rem', flexShrink: 0 }}>
-                    {item.icon}
+                    {}
                   </div>
                   <p style={{ fontSize: '0.9rem', color: t.textSec, lineHeight: 1.7, paddingTop: '0.4rem' }}>
                     {item.text}
